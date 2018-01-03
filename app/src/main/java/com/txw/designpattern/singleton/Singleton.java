@@ -1,10 +1,9 @@
 package com.txw.designpattern.singleton;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * 单例模式
+ * 使用场景：确保某个类只有一个对象的场景，避免产生多个对象消耗过多的资源，或者某种类型的对象只应该又却只有一个。
+ * 例如创建对象需要消耗资源过多，如访问IO和数据库等资源，这时候考虑使用单例模式。
  *
  * @author txw
  * @date 2017/11/8.
