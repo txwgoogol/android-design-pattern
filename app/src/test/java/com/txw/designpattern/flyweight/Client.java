@@ -1,4 +1,4 @@
-package com.txw.designpattern.enjoyment;
+package com.txw.designpattern.flyweight;
 
 import org.junit.Test;
 
