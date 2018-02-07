@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">DesignPattern</string>
+
+    <string-array name="data">
+        <item>SM Brother</item>
+        <item>Aige</item>
+        <item>Mermaid Tank</item>
+        <item>Aunt Guo</item>
+        <item>Shit Brother</item>
+        <item>Doctor XU</item>
+        <item>Uncle Seven</item>
+        <item>Very Sharp</item>
+    </string-array>
+
 </resources>
