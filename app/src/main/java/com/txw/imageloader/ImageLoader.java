@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
 
 /**
  * 图片加载类
+ * 增加单例模式 防止多次创建引起内存资源消耗问题
  * Created by txw on 2018/1/2.
  */
 public class ImageLoader {
