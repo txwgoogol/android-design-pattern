@@ -3,6 +3,8 @@ package com.txw.designpattern.visitor;
 import com.txw.designpattern.visitor.model.BusinessReport;
 import com.txw.designpattern.visitor.model.CEOVisitor;
 import com.txw.designpattern.visitor.model.CTOVisitor;
+import com.txw.designpattern.visitor.model.ReportUtil;
+import com.txw.designpattern.visitor.model.Staff;
 
 import org.junit.Test;
 
