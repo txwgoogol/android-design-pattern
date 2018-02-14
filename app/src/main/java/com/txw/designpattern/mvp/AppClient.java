@@ -11,6 +11,7 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 /**
+ * 网络请求
  * Created by txw on 2018/2/13.
  */
 public class AppClient {
