@@ -8,6 +8,6 @@ import android.telecom.Call;
  */
 public interface ApiStore {
 
-
+    //Call<Weather> getWeather();
 
 }
