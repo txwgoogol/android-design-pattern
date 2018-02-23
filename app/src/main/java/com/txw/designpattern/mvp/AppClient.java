@@ -8,6 +8,9 @@ import okhttp3.OkHttpClient;
  */
 public class AppClient {
 
+    //构建OkHttpClient.Builder
+    OkHttpClient.Builder builder = new OkHttpClient.Builder();
+
     private static final OkHttpClient mOkHttpClient = new OkHttpClient();
 
     public static OkHttpClient getInstance() {
