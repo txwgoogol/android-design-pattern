@@ -1,6 +1,6 @@
 package com.txw.designpattern.adapter;
 
-import com.txw.designpattern.adapter.classmodel.VoltAdapter;
+import com.txw.designpattern.adapter.objectmodel.VoltAdapter;
 
 import org.junit.Test;
 
@@ -12,7 +12,7 @@ public class Client {
 
     @Test
     public void main() {
-        VoltAdapter voltAdapter = new VoltAdapter();
+        VoltAdapter voltAdapter = new VoltAdapter(new Volt220());
         System.out.println("输出电压：" + voltAdapter.getVolt5());
         System.out.println("输出电压：" + voltAdapter.getVolt220());
     }
