@@ -13,6 +13,7 @@ public class Singleton {
     private static Singleton mInstance = null;
 
     public Singleton() {
+        System.out.println("单例模式");
     }
 
     public void doSomething() {
@@ -38,6 +39,7 @@ public class Singleton {
     //缺点：第一次加载反应慢，也由于java内存模型的原因偶尔失败。
     //总结：DCL是使用最多的单例实现方式，能够在需要时才被实例化单例对象，并且能在多数场景下保证单例对象的唯一性。
     public static Singleton getInstance2() {
+        mInstance = null;
         if (mInstance == null) {
             synchronized (Singleton.class) {
                 if (mInstance == null) {
