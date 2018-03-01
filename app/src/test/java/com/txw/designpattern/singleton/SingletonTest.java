@@ -19,4 +19,12 @@ public class SingletonTest {
         System.out.println(Singleton.SingletonEnum.INSTANCE);
     }
 
+    @Test
+    public void test(){
+        SingletonManger singletonManger = new SingletonManger();
+        singletonManger.registerService("String","Object");
+
+        singletonManger.getService("String");
+    }
+
 }

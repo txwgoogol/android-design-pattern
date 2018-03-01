@@ -14,6 +14,7 @@ public class SingletonManger {
     private static Map<String, Object> objectMap = new HashMap<String, Object>();
 
     public SingletonManger() {
+        System.out.println("容器实现单例模式");
     }
 
     public static void registerService(String key, Object instance) {
