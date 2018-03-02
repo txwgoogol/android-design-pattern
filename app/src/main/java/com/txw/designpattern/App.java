@@ -23,4 +23,8 @@ public class App extends Application{
         OkGo.getInstance().init(this);
     }
 
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+    }
 }
