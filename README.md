@@ -1,4 +1,3 @@
-# DesignPattern
-设计模式实战  
+# Android Design Pattern  
 
 [googlesamples todo-mvp](https://github.com/googlesamples/android-architecture/tree/todo-mvp)  
