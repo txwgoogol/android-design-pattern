@@ -6,6 +6,6 @@ package com.txw.designpattern.mvp;
  */
 public class Constant {
 
-    public static final String BASE_URL = "http://api.wunderground.com/";
+    public static final String BASE_URL = "http://www.weather.com.cn/";
 
 }

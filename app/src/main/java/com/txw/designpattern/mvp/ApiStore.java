@@ -1,6 +1,9 @@
 package com.txw.designpattern.mvp;
 
-import android.telecom.Call;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Path;
 
 /**
  * 接口
@@ -8,6 +11,8 @@ import android.telecom.Call;
  */
 public interface ApiStore {
 
-    //Call<Weather> getWeather();
+    //加载天气
+    @GET("adat/sk/{cityId}.html")
+    Call<Weather> loadDataByRetrofit(@Path("cityId") String cityId);
 
 }
