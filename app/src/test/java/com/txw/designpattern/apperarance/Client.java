@@ -1,12 +1,12 @@
 package com.txw.designpattern.apperarance;
 
-import com.txw.designpattern.appearance.model.MobilePhone;
+import top.txwgoogol.designpattern.appearance.model.MobilePhone;
 
 import org.junit.Test;
 
 /**
  * 测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

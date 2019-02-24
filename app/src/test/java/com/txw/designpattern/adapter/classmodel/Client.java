@@ -2,9 +2,11 @@ package com.txw.designpattern.adapter.classmodel;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.adapter.classmodel.VoltAdapter;
+
 /**
  * 类适配器模式测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

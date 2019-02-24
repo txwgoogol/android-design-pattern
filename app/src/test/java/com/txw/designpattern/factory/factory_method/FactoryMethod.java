@@ -2,9 +2,14 @@ package com.txw.designpattern.factory.factory_method;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.factory.factory_method.ConcreteFactory;
+import top.txwgoogol.designpattern.factory.factory_method.ConcreteProductB;
+import top.txwgoogol.designpattern.factory.factory_method.Factory;
+import top.txwgoogol.designpattern.factory.factory_method.Product;
+
 /**
  * 客户类
- * Created by txw on 2018/1/6.
+ * Created by txwgoogol on 2018/1/6.
  */
 public class FactoryMethod {
 

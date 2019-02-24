@@ -1,13 +1,13 @@
 package com.txw.designpattern.observer;
 
-import com.txw.designpattern.observer.model.Coder;
-import com.txw.designpattern.observer.model.DevTechFrontier;
+import top.txwgoogol.designpattern.observer.model.Coder;
+import top.txwgoogol.designpattern.observer.model.DevTechFrontier;
 
 import org.junit.Test;
 
 /**
  * 观察者模式测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

@@ -2,9 +2,12 @@ package com.txw.designpattern.strategy;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.strategy.BusStrategy;
+import top.txwgoogol.designpattern.strategy.CalculatorStrategy;
+
 /**
  * 公交价格计价器
- * Created by txw on 2018/1/8.
+ * Created by txwgoogol on 2018/1/8.
  */
 public class TranficCalculator {
 

@@ -1,12 +1,13 @@
 package com.txw.designpattern.adapter;
 
-import com.txw.designpattern.adapter.objectmodel.VoltAdapter;
+import top.txwgoogol.designpattern.adapter.Volt220;
+import top.txwgoogol.designpattern.adapter.objectmodel.VoltAdapter;
 
 import org.junit.Test;
 
 /**
  * 对象适配器模式测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

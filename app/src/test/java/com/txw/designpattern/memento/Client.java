@@ -1,13 +1,13 @@
 package com.txw.designpattern.memento;
 
-import com.txw.designpattern.memento.model.CallOfDuty;
-import com.txw.designpattern.memento.model.Creataker;
+import top.txwgoogol.designpattern.memento.model.CallOfDuty;
+import top.txwgoogol.designpattern.memento.model.Creataker;
 
 import org.junit.Test;
 
 /**
  * 测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

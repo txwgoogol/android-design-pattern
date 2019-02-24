@@ -2,9 +2,14 @@ package com.txw.designpattern.bridge.model;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.bridge.model.Abstraction;
+import top.txwgoogol.designpattern.bridge.model.ConcreteImplementorA;
+import top.txwgoogol.designpattern.bridge.model.ConcreteImplementorB;
+import top.txwgoogol.designpattern.bridge.model.RefinedAbstraction;
+
 /**
  * 测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

@@ -1,18 +1,18 @@
 package com.txw.designpattern.responsibility_chain;
 
-import com.txw.designpattern.responsibility_chain.package1.AbstractHandler;
-import com.txw.designpattern.responsibility_chain.package1.AbstractRequest;
-import com.txw.designpattern.responsibility_chain.package1.Handler1;
-import com.txw.designpattern.responsibility_chain.package1.Handler2;
-import com.txw.designpattern.responsibility_chain.package1.Handler3;
-import com.txw.designpattern.responsibility_chain.package1.Request1;
-import com.txw.designpattern.responsibility_chain.package1.Request2;
-import com.txw.designpattern.responsibility_chain.package1.Request3;
+import top.txwgoogol.designpattern.responsibility_chain.package1.AbstractHandler;
+import top.txwgoogol.designpattern.responsibility_chain.package1.AbstractRequest;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Handler1;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Handler2;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Handler3;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Request1;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Request2;
+import top.txwgoogol.designpattern.responsibility_chain.package1.Request3;
 
 import org.junit.Test;
 
 /**
- * Created by txw on 2018/1/10.
+ * Created by txwgoogol on 2018/1/10.
  */
 public class Client {
 

@@ -2,9 +2,11 @@ package com.txw.designpattern.state;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.state.TvController;
+
 /**
  * 状态模式测试类
- * Created by txw on 2018/1/9.
+ * Created by txwgoogol on 2018/1/9.
  */
 public class Client {
 

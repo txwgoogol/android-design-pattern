@@ -2,8 +2,13 @@ package com.txw.designpattern.command.model;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.command.model.Command;
+import top.txwgoogol.designpattern.command.model.ConcreteCommand;
+import top.txwgoogol.designpattern.command.model.Invoker;
+import top.txwgoogol.designpattern.command.model.Receiver;
+
 /**
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

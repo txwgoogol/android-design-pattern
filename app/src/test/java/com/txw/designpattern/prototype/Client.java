@@ -2,9 +2,11 @@ package com.txw.designpattern.prototype;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.prototype.WordDocument;
+
 /**
  * 简单的原型模式
- * Created by txw on 2018/1/4.
+ * Created by txwgoogol on 2018/1/4.
  */
 public class Client {
 

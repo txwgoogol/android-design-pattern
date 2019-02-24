@@ -2,9 +2,12 @@ package com.txw.designpattern.responsibility_chain.simple;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.responsibility_chain.simple.ConcreteHandler1;
+import top.txwgoogol.designpattern.responsibility_chain.simple.ConcreteHandler2;
+
 /**
  * 责任链模式 客户类
- * Created by txw on 2018/1/10.
+ * Created by txwgoogol on 2018/1/10.
  */
 public class Client {
 

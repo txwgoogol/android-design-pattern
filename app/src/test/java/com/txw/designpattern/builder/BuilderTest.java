@@ -2,9 +2,13 @@ package com.txw.designpattern.builder;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.builder.Builder;
+import top.txwgoogol.designpattern.builder.Director;
+import top.txwgoogol.designpattern.builder.MacBookBuilder;
+
 /**
  * Builder代码测试
- * Created by txw on 2018/1/3.
+ * Created by txwgoogol on 2018/1/3.
  */
 public class BuilderTest {
 

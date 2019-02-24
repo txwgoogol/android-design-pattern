@@ -2,9 +2,12 @@ package com.txw.designpattern.proxy.model;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.proxy.model.ProxySubject;
+import top.txwgoogol.designpattern.proxy.model.RealSubject;
+
 /**
  * 代理模式测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

@@ -4,7 +4,7 @@ import org.junit.Test;
 
 /**
  * 客户类
- * Created by txw on 2018/1/11.
+ * Created by txwgoogol on 2018/1/11.
  */
 public class Client {
 

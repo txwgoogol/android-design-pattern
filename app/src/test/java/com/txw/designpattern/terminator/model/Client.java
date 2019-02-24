@@ -2,9 +2,13 @@ package com.txw.designpattern.terminator.model;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.terminator.model.ConcreteColleagueA;
+import top.txwgoogol.designpattern.terminator.model.ConcreteColleagueB;
+import top.txwgoogol.designpattern.terminator.model.ConcreteMediator;
+
 /**
  * 中介者模型测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

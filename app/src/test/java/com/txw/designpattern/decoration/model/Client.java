@@ -2,9 +2,14 @@ package com.txw.designpattern.decoration.model;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.decoration.model.Component;
+import top.txwgoogol.designpattern.decoration.model.ConcreteComponent;
+import top.txwgoogol.designpattern.decoration.model.ConcreteDecoratorA;
+import top.txwgoogol.designpattern.decoration.model.Decorator;
+
 /**
  * 测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 

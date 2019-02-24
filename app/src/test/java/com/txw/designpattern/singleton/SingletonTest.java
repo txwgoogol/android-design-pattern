@@ -2,9 +2,12 @@ package com.txw.designpattern.singleton;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.singleton.Singleton;
+import top.txwgoogol.designpattern.singleton.SingletonManger;
+
 /**
  * 单例模式测试
- * Created by txw on 2018/1/3.
+ * Created by txwgoogol on 2018/1/3.
  */
 public class SingletonTest {
 

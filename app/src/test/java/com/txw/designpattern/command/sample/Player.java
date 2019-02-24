@@ -2,8 +2,15 @@ package com.txw.designpattern.command.sample;
 
 import org.junit.Test;
 
+import top.txwgoogol.designpattern.command.sample.Buttons;
+import top.txwgoogol.designpattern.command.sample.FallCommand;
+import top.txwgoogol.designpattern.command.sample.LeftCommand;
+import top.txwgoogol.designpattern.command.sample.RightCommand;
+import top.txwgoogol.designpattern.command.sample.TetrisMachine;
+import top.txwgoogol.designpattern.command.sample.TransformCommand;
+
 /**
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Player {
 

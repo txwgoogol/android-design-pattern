@@ -1,16 +1,14 @@
 package com.txw.designpattern.visitor;
 
-import com.txw.designpattern.visitor.model.BusinessReport;
-import com.txw.designpattern.visitor.model.CEOVisitor;
-import com.txw.designpattern.visitor.model.CTOVisitor;
-import com.txw.designpattern.visitor.model.ReportUtil;
-import com.txw.designpattern.visitor.model.Staff;
+import top.txwgoogol.designpattern.visitor.model.BusinessReport;
+import top.txwgoogol.designpattern.visitor.model.CEOVisitor;
+import top.txwgoogol.designpattern.visitor.model.CTOVisitor;
 
 import org.junit.Test;
 
 /**
  * 访问者模式测试类
- * Created by txw on 2018/1/12.
+ * Created by txwgoogol on 2018/1/12.
  */
 public class Client {
 
