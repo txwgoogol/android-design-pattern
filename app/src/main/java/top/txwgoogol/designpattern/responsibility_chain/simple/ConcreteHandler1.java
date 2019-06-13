@@ -11,7 +11,7 @@ public class ConcreteHandler1 extends Handler {
     public void handleRequest(String condition) {
         if (condition.equals("ConcreteHandler1")) {
             System.out.println("ConcreteHandler1 handled");
-            return;
+            //return;
         } else {
             success.handleRequest(condition);
         }

@@ -44,7 +44,7 @@ public class WordDocument implements Cloneable {
      * @return
      */
     @Override
-    protected WordDocument clone() {
+    public final WordDocument clone() {
         try {
             WordDocument doc = (WordDocument) super.clone();
             doc.mText = this.mText;

@@ -7,7 +7,7 @@ package top.txwgoogol.designpattern.responsibility_chain.simple;
  */
 public abstract class Handler {
 
-    protected Handler success;//下一节点的处理者
+    public Handler success;//下一节点的处理者
 
     /**
      * 请求处理
