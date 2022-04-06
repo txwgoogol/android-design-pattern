@@ -1,4 +1,4 @@
-package top.txwgoogol.designpattern.mvp;
+package top.txwgoogol.designpattern.mvp.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

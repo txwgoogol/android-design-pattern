@@ -1,4 +1,4 @@
-package top.txwgoogol.designpattern.mvp;
+package top.txwgoogol.designpattern.mvp.model;
 
 import java.util.concurrent.TimeUnit;
 
@@ -7,7 +7,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-import static top.txwgoogol.designpattern.mvp.Constant.BASE_URL;
+import static top.txwgoogol.designpattern.mvp.model.Constant.BASE_URL;
 
 /**
  * 网络请求

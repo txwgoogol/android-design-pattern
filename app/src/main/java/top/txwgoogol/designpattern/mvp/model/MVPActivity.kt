@@ -1,30 +1,36 @@
-package top.txwgoogol.designpattern.mvp
+package top.txwgoogol.designpattern.mvp.model
 
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.util.Preconditions.checkNotNull
-import kotlinx.android.synthetic.main.activity_weather.*
 import top.txwgoogol.designpattern.R
 
 /**
  * 主界面
  * Created by txwgoogol on 2018/2/13.
  */
-class WeatherActivity : AppCompatActivity(), WeatherContact.View, View.OnClickListener {
+class MVPActivity : AppCompatActivity(), WeatherContact.View, View.OnClickListener {
 	
 	private var mProgressDialogEx: ProgressDialogEx? = null
 	private var mPresenter: WeatherContact.Presenter? = null
 	private var mWeatherPresenter: WeatherPresenter? = null
-	
+
+	private lateinit var okHttp: Button
+	private lateinit var tvDesc: TextView
+
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_weather)
 		
 		mProgressDialogEx = ProgressDialogEx(this)
 		mWeatherPresenter = WeatherPresenter(this)
-		
-		ok_http.setOnClickListener(this)
+
+		tvDesc = findViewById(R.id.tv_desc)
+		okHttp = findViewById(R.id.ok_http)
+		okHttp.setOnClickListener(this)
 	}
 	
 	override fun onClick(v: View) {
@@ -60,7 +66,7 @@ class WeatherActivity : AppCompatActivity(), WeatherContact.View, View.OnClickLi
 			+ resources.getString(R.string.wd) + weatherinfo.wd
 			+ resources.getString(R.string.ws) + weatherinfo.ws
 			+ resources.getString(R.string.time) + weatherinfo.time)
-		tv_desc.text = showData
+		tvDesc.text = showData
 	}
 	
 }

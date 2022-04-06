@@ -1,4 +1,4 @@
-package top.txwgoogol.designpattern.mvp;
+package top.txwgoogol.designpattern.mvp.model;
 
 /**
  * 视图接口层，与视图进行数据传输的接口

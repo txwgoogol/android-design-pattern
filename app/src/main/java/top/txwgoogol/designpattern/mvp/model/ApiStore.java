@@ -1,5 +1,4 @@
-package top.txwgoogol.designpattern.mvp;
-
+package top.txwgoogol.designpattern.mvp.model;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;

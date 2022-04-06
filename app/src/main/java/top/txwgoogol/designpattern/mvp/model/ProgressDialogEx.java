@@ -1,4 +1,4 @@
-package top.txwgoogol.designpattern.mvp;
+package top.txwgoogol.designpattern.mvp.model;
 
 import android.app.ProgressDialog;
 import android.content.Context;
