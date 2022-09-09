@@ -6,7 +6,7 @@ package top.txwgoogol.designpattern.builder;
  */
 public class MacBookBuilder extends Builder {
 
-    private Computer mComputer = new MacBook();
+    private final Computer mComputer = new MacBook();
 
     @Override
     public void buildBoard(String board) {
