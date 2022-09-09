@@ -9,7 +9,7 @@ import top.txwgoogol.designpattern.adapter.Volt220;
  */
 public class VoltAdapter implements FiveVolt {
 
-    private Volt220 volt220;
+    private final Volt220 volt220;
 
     public VoltAdapter(Volt220 volt220) {
         this.volt220 = volt220;

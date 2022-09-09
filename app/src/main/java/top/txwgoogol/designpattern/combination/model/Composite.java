@@ -3,6 +3,8 @@ package top.txwgoogol.designpattern.combination.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import top.txwgoogol.designpattern.combination.Combination;
+
 /**
  * 具体枝干节点
  * Created by txwgoogol on 2018/1/23.

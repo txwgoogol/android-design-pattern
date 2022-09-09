@@ -1,10 +1,10 @@
 package com.txw.designpattern.visitor;
 
-import top.txwgoogol.designpattern.visitor.model.BusinessReport;
-import top.txwgoogol.designpattern.visitor.model.CEOVisitor;
-import top.txwgoogol.designpattern.visitor.model.CTOVisitor;
-
 import org.junit.Test;
+
+import top.txwgoogol.designpattern.visitor.BusinessReport;
+import top.txwgoogol.designpattern.visitor.CEOVisitor;
+import top.txwgoogol.designpattern.visitor.CTOVisitor;
 
 /**
  * 访问者模式测试类

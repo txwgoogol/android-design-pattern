@@ -1,6 +1,6 @@
 package com.txw.designpattern.memento;
 
-import top.txwgoogol.designpattern.memento.model.CallOfDuty;
+import top.txwgoogol.designpattern.memento.CallOfDuty;
 import top.txwgoogol.designpattern.memento.model.Creataker;
 
 import org.junit.Test;

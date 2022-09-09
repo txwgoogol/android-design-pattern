@@ -1,5 +1,7 @@
 package top.txwgoogol.designpattern.combination.model;
 
+import top.txwgoogol.designpattern.combination.Combination;
+
 /**
  * 具体叶子节点
  * Created by txwgoogol on 2018/1/23.

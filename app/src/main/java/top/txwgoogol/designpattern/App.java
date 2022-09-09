@@ -5,7 +5,7 @@ import android.app.Application;
 /**
  * Created by txwgoogol on 2018/2/22.
  */
-public class App extends Application{
+public class App extends Application {
 
     @Override
     public void onCreate() {
@@ -17,4 +17,5 @@ public class App extends Application{
     public void onLowMemory() {
         super.onLowMemory();
     }
+
 }

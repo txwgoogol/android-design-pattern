@@ -1,7 +1,7 @@
 package top.txwgoogol.designpattern.template.model;
 
 /**
- * 程序演的计算机
+ * 程序员计算机
  * Created by txwgoogol on 2018/1/18.
  */
 public class CoderComputer extends AbstractComputer{

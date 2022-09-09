@@ -14,9 +14,11 @@ public class Client {
 
     @Test
     public void main() {
+        System.out.println("======程序员计算机======");
         AbstractComputer abstractComputer = new CoderComputer();
         abstractComputer.startUp();
 
+        System.out.println("\n======军用计算机======");
         abstractComputer = new MilitaryComputer();
         abstractComputer.startUp();
     }
