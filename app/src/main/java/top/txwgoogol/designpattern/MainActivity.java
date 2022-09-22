@@ -31,17 +31,9 @@ public class MainActivity extends AppCompatActivity {
         mvc = findViewById(R.id.mvc);
         mvp = findViewById(R.id.mvp);
 
-        mvc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, MVCActivity.class));
-            }
-        });
-        mvp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                //startActivity(new Intent(MainActivity.this, MVPActivity.class));
-            }
+        mvc.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, MVCActivity.class)));
+        mvp.setOnClickListener(view -> {
+            //startActivity(new Intent(MainActivity.this, MVPActivity.class));
         });
 
     }
